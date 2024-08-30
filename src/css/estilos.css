@@ -1,12 +1,11 @@
 :root {
-    --body: hsl(257, 40%, 49%);
-    --register: hsl(300, 69%, 71%);
-
+    --purple: hsl(257, 40%, 49%);
+    --pink: hsl(300, 69%, 71%);
 }
 
 body {
     background: url(../images/bg-desktop.svg) no-repeat;
-    background-color: var(--body);
+    background-color: var(--purple);
     margin: 50px;
     font-family: 'Poppins';
 }
@@ -34,14 +33,14 @@ main .content p {
 }
 
 main .content a {
-    color: var(--body);
+    color: var(--purple);
     background-color: white;
     padding: 10px 40px;
     border-radius: 50px;
 }
 
 main .content a:hover {
-    background-color: var(--register);
+    background-color: var(--pink);
     color: white;
     transition: 0.3s;
 }
@@ -79,8 +78,8 @@ footer .social-links .insta {
 footer .social-links .fb:hover,
 footer .social-links .twit:hover,
 footer .social-links .insta:hover {
-    color: var(--register);
-    border: 1px solid var(--register);
+    color: var(--pink);
+    border: 1px solid var(--pink);
     transition: 0.3s;
 }
 
