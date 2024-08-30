@@ -1,0 +1,34 @@
+@media (max-width: 1024px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: var(--body);
+    }
+
+    main {
+        display: lock;
+    }
+
+    header .logo {
+        width: 180px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main .content {
+        text-align: center;
+    }
+
+    main .content a {
+        padding: 10px 100px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .social-links {
+        justify-content: center;
+        padding-top: 50px;
+    }
+}
