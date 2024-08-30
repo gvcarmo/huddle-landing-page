@@ -1,6 +1,6 @@
 # Desafio - Huddle landing page
 
-Esta é uma solução do frontend mentor, projeto ![Design preview for the Blog preview card coding challenge](./preview.jpg)
+Esta é uma solução do frontend mentor, projeto ![Design preview for the Blog preview card coding challenge](./src/design/desktop-design.png)
 
 ## Conteúdo
  - Link da Solução: [Clique aqui](https://gvcarmo.github.io/huddle-landing-page/))
