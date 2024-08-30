@@ -1,11 +1,32 @@
-@media (max-width: 1024px) {
+@media (max-width: 376px){
     body {
         background: url(../images/bg-mobile.svg) no-repeat;
-        background-color: var(--body);
+    }
+    main .content h1 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    
+    main .content p {
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    
+    main .content a {
+        padding: 10px 10px;
+        border-radius: 50px;
     }
 
-    main {
-        display: lock;
+    main .ilustration {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: var(--purple);
     }
 
     header .logo {
@@ -21,10 +42,8 @@
     }
 
     main .content a {
-        padding: 10px 100px;
+        padding: 10px 50px;
         border-radius: 50px;
-        display: flex;
-        justify-content: center;
     }
 
     footer .social-links {
